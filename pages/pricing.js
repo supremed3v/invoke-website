@@ -5,7 +5,7 @@ const Pricing = () => {
   return (
     <>
       <Head>
-        <title>Blog - Invoke Solutions</title>
+        <title>Pricing - Invoke Solutions</title>
       </Head>
       <Pricings />
     </>
