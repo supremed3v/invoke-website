@@ -6,10 +6,20 @@ import { RiMenu4Line } from "react-icons/ri";
 import { AiOutlineClose } from "react-icons/ai";
 import Image from "next/image";
 import logo from "../../assets/images/logo.png";
+import ModalComponent from "../ModalComponent";
 
 const Header = () => {
   const [activeLink, setActiveLink] = useState("");
   const [open, setOpen] = useState(false);
+  const [modalIsOpen, setIsOpen] = useState(false);
+
+  function openModal() {
+    setIsOpen(true);
+  }
+
+  function closeModal() {
+    setIsOpen(false);
+  }
 
   const router = useRouter();
   useEffect(() => {
@@ -70,7 +80,15 @@ const Header = () => {
             >
               Contact
             </Link>
-            <button className="button-primary">book a consultation</button>
+            <button className="button-primary" onClick={openModal}>
+              book a consultation
+            </button>
+            {
+              <ModalComponent
+                modalIsOpen={modalIsOpen}
+                closeModal={closeModal}
+              />
+            }
           </nav>
           <button onClick={() => setOpen(!open)} className="navButton">
             {open ? <AiOutlineClose size={25} /> : <RiMenu4Line size={25} />}
