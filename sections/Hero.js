@@ -47,7 +47,7 @@ const Hero = () => {
       <Expertise />
       <Banner />
       <Testimonial />
-      <ShowCase />
+      {/* <ShowCase /> */}
       <Brand />
     </>
   );
