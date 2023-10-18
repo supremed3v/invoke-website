@@ -564,56 +564,6 @@ footer {
   color: rgba(31, 31, 31, 0.799);
 }
 
-// .contactForm {
-//   border-radius: 10px;
-//   padding: 20px;
-//   margin: 20px;
-//   // Grid container for the inputs and the button
-//   display: grid;
-//   grid-template-columns: 1fr 1fr;
-//   grid-gap: 20px;
-
-//   input,
-//   select {
-//     border-radius: 10px;
-//     padding: 10px;
-//     margin: 10px;
-//     background-color: #fff;
-//     width: 100%; /* Make sure these elements take 100% width of their individual grid cell */
-//     color: $dark;
-//   }
-
-//   textarea {
-//     border-radius: 10px;
-//     padding: 10px;
-//     margin: 10px;
-//     background-color: #fff;
-//     width: calc(
-//       100% - 20px
-//     ); /* Subtract the grid gap to take up both fr columns */
-//     color: $dark;
-//     display: block;
-//     grid-column: span 2; /* Make the textarea span both columns */
-//   }
-
-//   button {
-//     border-radius: 10px;
-//     padding: 10px;
-//     margin: 10px;
-//     background-color: $green;
-//     border: none;
-//     cursor: pointer;
-//     color: $white;
-//     transition: 0.3s ease-in-out;
-//     width: 100%;
-//     &:hover {
-//       background-color: $white;
-//       color: $green;
-//     }
-//     grid-column: span 2; /* Make the button span both columns */
-//     justify-self: center; /* Center the button within the grid cell */
-//   }
-// }
 .contactForm {
   border-radius: 10px;
   padding: 20px;
