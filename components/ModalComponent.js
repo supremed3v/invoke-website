@@ -41,6 +41,7 @@ const ModalComponent = ({ modalIsOpen, closeModal }) => {
           to_name: "Invoke Solutions",
           from_email: form.email,
           message: form.message,
+          to_email: "saaadahmedsiddiqui1999@gmail.com",
         },
         process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
       )
