@@ -553,3 +553,148 @@ footer {
   transform: translate(-50%, -50%);
   background-color: rgba(000, 000, 000, 0.4);
 }
+
+::placeholder {
+  color: rgba(31, 31, 31, 0.799);
+  opacity: 1; /* Firefox */
+}
+
+::-ms-input-placeholder {
+  /* Edge 12 -18 */
+  color: rgba(31, 31, 31, 0.799);
+}
+
+// .contactForm {
+//   border-radius: 10px;
+//   padding: 20px;
+//   margin: 20px;
+//   // Grid container for the inputs and the button
+//   display: grid;
+//   grid-template-columns: 1fr 1fr;
+//   grid-gap: 20px;
+
+//   input,
+//   select {
+//     border-radius: 10px;
+//     padding: 10px;
+//     margin: 10px;
+//     background-color: #fff;
+//     width: 100%; /* Make sure these elements take 100% width of their individual grid cell */
+//     color: $dark;
+//   }
+
+//   textarea {
+//     border-radius: 10px;
+//     padding: 10px;
+//     margin: 10px;
+//     background-color: #fff;
+//     width: calc(
+//       100% - 20px
+//     ); /* Subtract the grid gap to take up both fr columns */
+//     color: $dark;
+//     display: block;
+//     grid-column: span 2; /* Make the textarea span both columns */
+//   }
+
+//   button {
+//     border-radius: 10px;
+//     padding: 10px;
+//     margin: 10px;
+//     background-color: $green;
+//     border: none;
+//     cursor: pointer;
+//     color: $white;
+//     transition: 0.3s ease-in-out;
+//     width: 100%;
+//     &:hover {
+//       background-color: $white;
+//       color: $green;
+//     }
+//     grid-column: span 2; /* Make the button span both columns */
+//     justify-self: center; /* Center the button within the grid cell */
+//   }
+// }
+.contactForm {
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  // Grid container for the inputs, checkbox, and button
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  font-size: 18px;
+
+  input,
+  select {
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    width: 100%;
+    color: $dark;
+    font-size: 18px;
+  }
+
+  textarea {
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    width: calc(100% - 20px);
+    color: $dark;
+    display: block;
+    grid-column: span 2;
+    font-size: 18px;
+  }
+
+  button {
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    background-color: $green;
+    border: none;
+    cursor: pointer;
+    color: $white;
+    transition: 0.3s ease-in-out;
+    width: 100px;
+    font-size: 18px;
+    &:hover {
+      background-color: $white;
+      color: $green;
+    }
+    grid-column: span 2;
+    justify-self: center;
+  }
+
+  #checkbox {
+    display: none; // Hide the checkbox
+  }
+
+  label {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fff;
+    color: $dark;
+    grid-column: span 2; // Make the label span both columns
+    display: flex;
+    align-items: center;
+
+    &::before {
+      content: "\2713"; // Unicode character for a checkmark
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background-color: $green;
+      color: $white;
+      border-radius: 5px;
+      text-align: center;
+      margin-right: 10px;
+      padding: 20px;
+    }
+  }
+
+  #checkbox:checked + label {
+    background-color: $green; // Change the label's background when the checkbox is checked
+    color: $white;
+  }
+}

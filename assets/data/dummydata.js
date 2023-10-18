@@ -31,6 +31,8 @@ export const customStyles = {
     marginRight: "-50%",
     transform: "translate(-50%, -50%)",
     backgroundColor: "rgba(000, 000, 000, 0.4)",
+    height: "max-content",
+    maxWidth: "1000px",
   },
 };
 export const expertise = [
