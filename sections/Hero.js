@@ -3,6 +3,7 @@ import Banner from "@/components/Banner";
 import Expertise from "@/components/Expertise";
 import ShowCase from "@/components/ShowCase";
 import Testimonial from "@/components/Testimonial";
+import VideoPlayer from "@/components/VideoPlayer";
 import { Title, TitleLogo, TitleSm } from "@/components/common/Title";
 import { Brand } from "@/components/router";
 import React from "react";
@@ -20,6 +21,7 @@ const Hero = () => {
             <TitleSm title="BRANDING" /> <span>.</span>
             <TitleSm title="DIGITAL MARKETING" />
           </div>
+          <VideoPlayer />
         </div>
       </section>
       <section className="hero-sec">
