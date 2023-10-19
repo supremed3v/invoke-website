@@ -264,6 +264,7 @@ export const tabs = [
   "Branding",
   "Social Media Marketing",
   "Search Engine Optimization",
+  "Custom Web/App Development",
 ];
 export const pricingData = {
   "Web Development": [
@@ -272,24 +273,22 @@ export const pricingData = {
       price: "$99/month",
       description: (
         <ul>
-          <li>3 Page Website</li>
-          <li>Custom Layout Design</li>
-          <li>Contact / Query Form</li>
+          <li>3 Page Website with Custom Design</li>
+          <li>Contact / Query Form Integration</li>
           <li>1 Banner Design</li>
           <li>2 Stock Photos</li>
           <li>FREE Favicon Design</li>
-          <li>Cross Browser Compatible</li>
+          <li>Cross Browser Compatibility</li>
           <li>Complete W3C Certified HTML</li>
-          <li>Website Initial Concepts in 48 Hours</li>
-          <li>Complete Design & Deployment</li>
-          <li>Complete Source Files</li>
-          <li>API Integrations</li>
+          <li>Initial Website Concepts in 48 Hours</li>
+          <li>Design & Deployment Included</li>
+          <li>Complete Source Files Delivery</li>
+          <li>API Integrations Available</li>
           <li>Dedicated Project Manager</li>
           <li>100% Ownership Rights</li>
           <li>100% Satisfaction Guarantee</li>
-          <li>Value Added Services</li>
-          <li>Mobile Responsive</li>
-          <li>CMS</li>
+          <li>Mobile Responsive Design</li>
+          <li>Content Management System (CMS)</li>
         </ul>
       ),
     },
@@ -298,24 +297,22 @@ export const pricingData = {
       price: "$199/month",
       description: (
         <ul>
-          <li>3 Page Website</li>
-          <li>Custom Layout Design</li>
-          <li>Contact / Query Form</li>
-          <li>1 Banner Design</li>
-          <li>2 Stock Photos</li>
+          <li>5 Page Website with Custom Design</li>
+          <li>Contact / Query Form Integration</li>
+          <li>2 Banner Designs</li>
+          <li>4 Stock Photos</li>
           <li>FREE Favicon Design</li>
-          <li>Cross Browser Compatible</li>
+          <li>Cross Browser Compatibility</li>
           <li>Complete W3C Certified HTML</li>
-          <li>Website Initial Concepts in 48 Hours</li>
-          <li>Complete Design & Deployment</li>
-          <li>Complete Source Files</li>
-          <li>API Integrations</li>
+          <li>Initial Website Concepts in 48 Hours</li>
+          <li>Design & Deployment Included</li>
+          <li>Complete Source Files Delivery</li>
+          <li>API Integrations Available</li>
           <li>Dedicated Project Manager</li>
           <li>100% Ownership Rights</li>
           <li>100% Satisfaction Guarantee</li>
-          <li>Value Added Services</li>
-          <li>Mobile Responsive</li>
-          <li>CMS</li>
+          <li>Mobile Responsive Design</li>
+          <li>Content Management System (CMS)</li>
         </ul>
       ),
     },
@@ -324,24 +321,22 @@ export const pricingData = {
       price: "$499/month",
       description: (
         <ul>
-          <li>3 Page Website</li>
-          <li>Custom Layout Design</li>
-          <li>Contact / Query Form</li>
-          <li>1 Banner Design</li>
-          <li>2 Stock Photos</li>
+          <li>Custom Website with Unlimited Pages</li>
+          <li>Contact / Query Form Integration</li>
+          <li>Multiple Banner Designs</li>
+          <li>High-Quality Stock Photos</li>
           <li>FREE Favicon Design</li>
-          <li>Cross Browser Compatible</li>
+          <li>Cross Browser Compatibility</li>
           <li>Complete W3C Certified HTML</li>
-          <li>Website Initial Concepts in 48 Hours</li>
-          <li>Complete Design & Deployment</li>
-          <li>Complete Source Files</li>
-          <li>API Integrations</li>
+          <li>Initial Website Concepts in 48 Hours</li>
+          <li>Design & Deployment Included</li>
+          <li>Complete Source Files Delivery</li>
+          <li>API Integrations Available</li>
           <li>Dedicated Project Manager</li>
           <li>100% Ownership Rights</li>
           <li>100% Satisfaction Guarantee</li>
-          <li>Value Added Services</li>
-          <li>Mobile Responsive</li>
-          <li>CMS</li>
+          <li>Mobile Responsive Design</li>
+          <li>Content Management System (CMS)</li>
         </ul>
       ),
     },
@@ -352,11 +347,11 @@ export const pricingData = {
       price: "$49",
       description: (
         <ul>
-          <li>1 Banner Design</li>
-          <li>2 Stock Photos</li>
-          <li>FREE Favicon Design</li>
-          <li>Cross Browser Compatible</li>
-          <li>Complete W3C Certified HTML</li>
+          <li>1 Unique Logo Design</li>
+          <li>2 Revisions</li>
+          <li>High-Resolution Vector Files</li>
+          <li>Multiple File Formats</li>
+          <li>Ownership Rights</li>
         </ul>
       ),
     },
@@ -365,16 +360,12 @@ export const pricingData = {
       price: "$99",
       description: (
         <ul>
-          <li>1 Banner Design</li>
-          <li>2 Stock Photos</li>
-          <li>FREE Favicon Design</li>
-          <li>Cross Browser Compatible</li>
-          <li>Complete W3C Certified HTML</li>
-          <li>Website Initial Concepts in 48 Hours</li>
-          <li>Complete Design & Deployment</li>
-          <li>Complete Source Files</li>
-          <li>100% Ownership Rights</li>
-          <li>100% Satisfaction Guarantee</li>
+          <li>2 Unique Logo Designs</li>
+          <li>Unlimited Revisions</li>
+          <li>High-Resolution Vector Files</li>
+          <li>Multiple File Formats</li>
+          <li>Ownership Rights</li>
+          <li>Brand Style Guide</li>
         </ul>
       ),
     },
@@ -383,20 +374,14 @@ export const pricingData = {
       price: "$199",
       description: (
         <ul>
-          <li>1 Banner Design</li>
-          <li>2 Stock Photos</li>
-          <li>FREE Favicon Design</li>
-          <li>Cross Browser Compatible</li>
-          <li>Complete W3C Certified HTML</li>
-          <li>Website Initial Concepts in 48 Hours</li>
-          <li>Complete Design & Deployment</li>
-          <li>Complete Source Files</li>
-          <li>API Integrations</li>
-          <li>100% Ownership Rights</li>
-          <li>100% Satisfaction Guarantee</li>
-          <li>Value Added Services</li>
-          <li>Mobile Responsive</li>
-          <li>CMS</li>
+          <li>3 Unique Logo Designs</li>
+          <li>Unlimited Revisions</li>
+          <li>High-Resolution Vector Files</li>
+          <li>Multiple File Formats</li>
+          <li>Ownership Rights</li>
+          <li>Brand Style Guide</li>
+          <li>Business Card Design</li>
+          <li>Social Media Profile Images</li>
         </ul>
       ),
     },
@@ -407,11 +392,11 @@ export const pricingData = {
       price: "$299",
       description: (
         <ul>
-          <li>Complete Design & Deployment</li>
-          <li>Complete Source Files</li>
-          <li>API Integrations</li>
-          <li>Dedicated Project Manager</li>
-          <li>100% Ownership Rights</li>
+          <li>Logo Design</li>
+          <li>Brand Style Guide</li>
+          <li>Business Card Design</li>
+          <li>Email Signature Design</li>
+          <li>Brand Messaging</li>
         </ul>
       ),
     },
@@ -420,12 +405,12 @@ export const pricingData = {
       price: "$499",
       description: (
         <ul>
-          <li>Complete Design & Deployment</li>
-          <li>Complete Source Files</li>
-          <li>API Integrations</li>
-          <li>Dedicated Project Manager</li>
-          <li>100% Ownership Rights</li>
-          <li>100% Satisfaction Guarantee</li>
+          <li>Logo Design</li>
+          <li>Brand Style Guide</li>
+          <li>Business Card Design</li>
+          <li>Email Signature Design</li>
+          <li>Brand Messaging</li>
+          <li>Social Media Profile Images</li>
         </ul>
       ),
     },
@@ -434,13 +419,14 @@ export const pricingData = {
       price: "$999",
       description: (
         <ul>
-          <li>Complete Design & Deployment</li>
-          <li>Complete Source Files</li>
-          <li>API Integrations</li>
-          <li>Dedicated Project Manager</li>
-          <li>100% Ownership Rights</li>
-          <li>100% Satisfaction Guarantee</li>
-          <li>Value Added Services</li>
+          <li>Logo Design</li>
+          <li>Brand Style Guide</li>
+          <li>Business Card Design</li>
+          <li>Email Signature Design</li>
+          <li>Brand Messaging</li>
+          <li>Social Media Profile Images</li>
+          <li>Brand Strategy Consultation</li>
+          <li>Marketing Collateral Design</li>
         </ul>
       ),
     },
@@ -451,10 +437,11 @@ export const pricingData = {
       price: "$199/month",
       description: (
         <ul>
-          <li>API Integrations</li>
-          <li>Dedicated Project Manager</li>
-          <li>100% Ownership Rights</li>
-          <li>100% Satisfaction Guarantee</li>
+          <li>Social Media Account Setup</li>
+          <li>Content Creation</li>
+          <li>Monthly Content Calendar</li>
+          <li>Community Management</li>
+          <li>Basic Reporting</li>
         </ul>
       ),
     },
@@ -463,11 +450,12 @@ export const pricingData = {
       price: "$399/month",
       description: (
         <ul>
-          <li>API Integrations</li>
-          <li>Dedicated Project Manager</li>
-          <li>100% Ownership Rights</li>
-          <li>100% Satisfaction Guarantee</li>
-          <li>Value Added Services</li>
+          <li>Social Media Account Setup</li>
+          <li>Content Creation</li>
+          <li>Monthly Content Calendar</li>
+          <li>Community Management</li>
+          <li>Advanced Reporting</li>
+          <li>Ad Campaign Management</li>
         </ul>
       ),
     },
@@ -478,12 +466,12 @@ export const pricingData = {
       price: "$299/month",
       description: (
         <ul>
-          <li>Complete Design & Deployment</li>
-          <li>Complete Source Files</li>
-          <li>API Integrations</li>
-          <li>Dedicated Project Manager</li>
-          <li>100% Ownership Rights</li>
-          <li>100% Satisfaction Guarantee</li>
+          <li>Website Audit</li>
+          <li>Keyword Research</li>
+          <li>On-Page Optimization</li>
+          <li>Content Creation</li>
+          <li>Basic Reporting</li>
+          <li>Monthly Performance Review</li>
         </ul>
       ),
     },
@@ -492,12 +480,13 @@ export const pricingData = {
       price: "$499/month",
       description: (
         <ul>
-          <li>Complete Design & Deployment</li>
-          <li>Complete Source Files</li>
-          <li>API Integrations</li>
-          <li>Dedicated Project Manager</li>
-          <li>100% Ownership Rights</li>
-          <li>100% Satisfaction Guarantee</li>
+          <li>Website Audit</li>
+          <li>Keyword Research</li>
+          <li>On-Page Optimization</li>
+          <li>Content Creation</li>
+          <li>Advanced Reporting</li>
+          <li>Monthly Performance Review</li>
+          <li>Link Building</li>
         </ul>
       ),
     },
@@ -506,13 +495,67 @@ export const pricingData = {
       price: "$799/month",
       description: (
         <ul>
-          <li>Complete Design & Deployment</li>
-          <li>Complete Source Files</li>
-          <li>API Integrations</li>
-          <li>Dedicated Project Manager</li>
-          <li>100% Ownership Rights</li>
-          <li>100% Satisfaction Guarantee</li>
-          <li>Value Added Services</li>
+          <li>Website Audit</li>
+          <li>Keyword Research</li>
+          <li>On-Page Optimization</li>
+          <li>Content Creation</li>
+          <li>Advanced Reporting</li>
+          <li>Monthly Performance Review</li>
+          <li>Link Building</li>
+          <li>Local SEO Optimization</li>
+        </ul>
+      ),
+    },
+  ],
+  "Custom Web/App Development": [
+    // New tab for Custom Web/App Development
+    {
+      plan: "Basic",
+      price: "$999",
+      description: (
+        <ul>
+          <li>Custom Web Application Development</li>
+          <li>Up to 5 Pages</li>
+          <li>Responsive Design</li>
+          <li>User Authentication</li>
+          <li>Basic Database Integration</li>
+          <li>One Round of Revisions</li>
+          <li>Deployment on Your Server</li>
+          <li>Ownership Rights</li>
+        </ul>
+      ),
+    },
+    {
+      plan: "Pro",
+      price: "$1999",
+      description: (
+        <ul>
+          <li>Custom Web or App Development</li>
+          <li>Up to 10 Pages</li>
+          <li>Responsive Design</li>
+          <li>User Authentication & Authorization</li>
+          <li>Database Integration</li>
+          <li>Two Rounds of Revisions</li>
+          <li>Deployment on Your Server or App Store</li>
+          <li>Ownership Rights</li>
+          <li>Basic Maintenance & Support</li>
+        </ul>
+      ),
+    },
+    {
+      plan: "Enterprise",
+      price: "Contact Us",
+      description: (
+        <ul>
+          <li>Custom Web and App Development</li>
+          <li>Unlimited Pages</li>
+          <li>Custom Features & Functionality</li>
+          <li>Advanced User Management</li>
+          <li>Database Integration & Optimization</li>
+          <li>Custom Revisions</li>
+          <li>Deployment & Maintenance Support</li>
+          <li>Ownership Rights</li>
+          <li>Priority Support & Ongoing Maintenance</li>
         </ul>
       ),
     },
