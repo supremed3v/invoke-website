@@ -6,13 +6,26 @@ import {
   AiFillInstagram,
   AiFillLinkedin,
 } from "react-icons/ai";
+import { useState } from "react";
+import ModalComponent from "../ModalComponent";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
+  const [modalIsOpen, setIsOpen] = useState(false);
+
+  function openModal() {
+    setIsOpen(true);
+  }
+
+  function closeModal() {
+    setIsOpen(false);
+  }
+
   return (
     <>
       <footer>
+        {<ModalComponent modalIsOpen={modalIsOpen} closeModal={closeModal} />}
         <div className="container">
           <div className="grid-4">
             <div className="logo">
@@ -29,7 +42,9 @@ const Footer = () => {
               <br />
               <h3>+1 001 234 5678</h3>
               <br />
-              <button className="button-primary">Request for quote</button>
+              <button onClick={openModal} className="button-primary">
+                Request for quote
+              </button>
             </div>
             <ul>
               <h3>COMPANY</h3>
