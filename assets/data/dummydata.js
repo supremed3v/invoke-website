@@ -21,7 +21,6 @@ export const home = [
     title: "Customer satisfaction is our top priority",
   },
 ];
-
 export const customStyles = {
   content: {
     top: "50%",
@@ -111,7 +110,6 @@ export const testimonial = [
     desc: "The marketing strategies and creativity displayed by Mark and his team at Artistic Creations have been outstanding. They understand our brand and have significantly improved our marketing efforts. I'm grateful for their dedication and results.",
   },
 ];
-
 export const showcase = [
   {
     id: 1,
@@ -257,7 +255,6 @@ export const teamdata = [
     post: "",
   },
 ];
-
 export const tabs = [
   "Web Development",
   "Logo Design",
@@ -270,7 +267,7 @@ export const pricingData = {
   "Web Development": [
     {
       plan: "Basic",
-      price: "$99/month",
+      price: "$399",
       description: (
         <ul>
           <li>3 Page Website with Custom Design</li>
@@ -293,8 +290,8 @@ export const pricingData = {
       ),
     },
     {
-      plan: "Pro",
-      price: "$199/month",
+      plan: "Startup",
+      price: "$799",
       description: (
         <ul>
           <li>5 Page Website with Custom Design</li>
@@ -317,8 +314,33 @@ export const pricingData = {
       ),
     },
     {
-      plan: "Enterprise",
-      price: "$499/month",
+      plan: "E-Commerce",
+      price: "$2,999",
+      description: (
+        <ul>
+          <li>Custom Ecommerce Website</li>
+          <li>Up to 200 Products</li>
+          <li>CMS / Admin Panel Integration</li>
+          <li>Fully Mobile Responsive</li>
+          <li>Shopping Cart Integration</li>
+          <li>Payment Gateway Integration</li>
+          <li>Product Listing & Management</li>
+          <li>Order Management & Tracking</li>
+          <li>Initial Website Concepts in 48 Hours</li>
+          <li>Design & Deployment Included</li>
+          <li>Complete Source Files Delivery</li>
+          <li>API Integrations Available</li>
+          <li>Dedicated Project Manager</li>
+          <li>100% Ownership Rights</li>
+          <li>100% Satisfaction Guarantee</li>
+          <li>Mobile Responsive Design</li>
+          <li>Content Management System (CMS)</li>
+        </ul>
+      ),
+    },
+    {
+      plan: "Platinum",
+      price: "$4,999",
       description: (
         <ul>
           <li>Custom Website with Unlimited Pages</li>
@@ -389,14 +411,24 @@ export const pricingData = {
   Branding: [
     {
       plan: "Basic",
-      price: "$299",
+      price: "$1,499",
       description: (
         <ul>
           <li>Logo Design</li>
-          <li>Brand Style Guide</li>
-          <li>Business Card Design</li>
-          <li>Email Signature Design</li>
-          <li>Brand Messaging</li>
+          <li>6 Unique Logo Concepts</li>
+          <li>FREE Icon</li>
+          <li>FREE Grayscale Copy</li>
+          <li>Unlimited Revisions</li>
+          <li>100% Ownership Right</li>
+          <li>AI, PSD, EPS, GIF, BMP, JPEG, PNG Formats</li>
+          <li>Print Media</li>
+          <li>Stationery Design (Business Card, Letterhead, Envelope)</li>
+          <li>Website Design</li>
+          <li>10 Pages Custom Business Website</li>
+          <li>Mobile Responsive</li>
+          <li>FREE Google Friendly Sitemap Search Engine Submission</li>
+          <li>Complete W3C Certified HTML</li>
+          <li>Complete Deployment</li>
         </ul>
       ),
     },
@@ -406,27 +438,26 @@ export const pricingData = {
       description: (
         <ul>
           <li>Logo Design</li>
-          <li>Brand Style Guide</li>
-          <li>Business Card Design</li>
-          <li>Email Signature Design</li>
-          <li>Brand Messaging</li>
-          <li>Social Media Profile Images</li>
-        </ul>
-      ),
-    },
-    {
-      plan: "Enterprise",
-      price: "$999",
-      description: (
-        <ul>
-          <li>Logo Design</li>
-          <li>Brand Style Guide</li>
-          <li>Business Card Design</li>
-          <li>Email Signature Design</li>
-          <li>Brand Messaging</li>
-          <li>Social Media Profile Images</li>
-          <li>Brand Strategy Consultation</li>
-          <li>Marketing Collateral Design</li>
+          <li>12 Unique Logo Concepts</li>
+          <li>FREE Icon</li>
+          <li>FREE Grayscale Copy</li>
+          <li>Unlimited Revisions</li>
+          <li>100% Ownership Right</li>
+          <li>AI, PSD, EPS, GIF, BMP, JPEG, PNG Formats</li>
+          <li>Print Material</li>
+          <li>Stationery Design (Business Card, Letterhead, Envelope)</li>
+          <li>Flyer Design / Label Design</li>
+          <li>Website Design</li>
+          <li>Custom Ecommerce Website</li>
+          <li>Up to 200 Products</li>
+          <li>CMS / Admin Panel Integration</li>
+          <li>Fully Mobile Responsive</li>
+          <li>Shopping Cart Integration</li>
+          <li>Payment Gateway Integration</li>
+          <li>Responsive Design (Mobile Compatible)</li>
+          <li>Complete Deployment</li>
+          <li>Social Media Design</li>
+          <li>Facebook Fanpage Splash Page + Cover Photo</li>
         </ul>
       ),
     },
@@ -434,28 +465,39 @@ export const pricingData = {
   "Social Media Marketing": [
     {
       plan: "Starter",
-      price: "$199/month",
+      price: "$299",
       description: (
         <ul>
-          <li>Social Media Account Setup</li>
-          <li>Content Creation</li>
-          <li>Monthly Content Calendar</li>
-          <li>Community Management</li>
-          <li>Basic Reporting</li>
+          <li>Optimize FB Page</li>
+          <li>1 Social Cover</li>
+          <li>Engagement</li>
+          <li>Reviews</li>
+          <li>Check-ins</li>
+          <li>Posts</li>
+          <li>3 Posts per Week</li>
+          <li>1 Facebook Event</li>
+          <li>Monthly Reporting</li>
         </ul>
       ),
     },
     {
       plan: "Professional",
-      price: "$399/month",
+      price: "$549",
       description: (
         <ul>
-          <li>Social Media Account Setup</li>
-          <li>Content Creation</li>
-          <li>Monthly Content Calendar</li>
-          <li>Community Management</li>
-          <li>Advanced Reporting</li>
-          <li>Ad Campaign Management</li>
+          <li>Optimize FB Page</li>
+          <li>1 Social Cover</li>
+          <li>Engagement</li>
+          <li>Reviews</li>
+          <li>Check-ins</li>
+          <li>Posts</li>
+          <li>Shares</li>
+          <li>Mentions</li>
+          <li>Invite to Like</li>
+          <li>Inbox Responses</li>
+          <li>4 Posts per Week</li>
+          <li>2 Facebook Events</li>
+          <li>Monthly Reporting</li>
         </ul>
       ),
     },
@@ -508,10 +550,9 @@ export const pricingData = {
     },
   ],
   "Custom Web/App Development": [
-    // New tab for Custom Web/App Development
     {
       plan: "Basic",
-      price: "$999",
+      price: "Get a Quote",
       description: (
         <ul>
           <li>Custom Web Application Development</li>
@@ -527,7 +568,7 @@ export const pricingData = {
     },
     {
       plan: "Pro",
-      price: "$1999",
+      price: "Get a Quote",
       description: (
         <ul>
           <li>Custom Web or App Development</li>
@@ -544,7 +585,7 @@ export const pricingData = {
     },
     {
       plan: "Enterprise",
-      price: "Contact Us",
+      price: "Get a Quote",
       description: (
         <ul>
           <li>Custom Web and App Development</li>
