@@ -544,6 +544,11 @@ footer {
   }
 }
 
+.modalContent {
+  max-height: 70vh; /* Set a maximum height for scrollability */
+  overflow-y: auto; /* Enable vertical scrolling when content overflows */
+}
+
 .modal {
   top: 50%;
   left: 50%;
@@ -551,7 +556,7 @@ footer {
   bottom: auto;
   margin-right: -50%;
   transform: translate(-50%, -50%);
-  background-color: rgba(000, 000, 000, 0.4);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 ::placeholder {
@@ -560,7 +565,7 @@ footer {
 }
 
 ::-ms-input-placeholder {
-  /* Edge 12 -18 */
+  /* Edge 12-18 */
   color: rgba(31, 31, 31, 0.799);
 }
 
@@ -568,11 +573,24 @@ footer {
   border-radius: 10px;
   padding: 20px;
   margin: 20px;
-  // Grid container for the inputs, checkbox, and button
+  font-size: 18px;
+
+  /* Added a media query for screens smaller than 768px (typical for mobile) */
+  @media (max-width: 768px) {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    input,
+    select,
+    textarea {
+      padding: 10px;
+      margin: 10px;
+    }
+  }
+
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
-  font-size: 18px;
 
   input,
   select {
@@ -584,13 +602,21 @@ footer {
     color: $dark;
     font-size: 18px;
   }
+  @media screen and (max-width: 768px) {
+    input,
+    select {
+      padding: 10px; /* Reduce padding on smaller screens */
+      font-size: 16px; /* Reduce font size on smaller screens */
+    }
+  }
 
+  /* Adjusted the textarea style for smaller screens */
   textarea {
     border-radius: 10px;
     padding: 20px;
     margin: 20px;
     background-color: #fff;
-    width: calc(100% - 20px);
+    width: 100%; /* Full width */
     color: $dark;
     display: block;
     grid-column: span 2;
@@ -608,6 +634,14 @@ footer {
     transition: 0.3s ease-in-out;
     width: 100px;
     font-size: 18px;
+
+    /* Adjusted button style for smaller screens */
+    @media (max-width: 768px) {
+      padding: 10px;
+      margin: 10px;
+      font-size: 16px;
+    }
+
     &:hover {
       background-color: $white;
       color: $green;
@@ -617,7 +651,7 @@ footer {
   }
 
   #checkbox {
-    display: none; // Hide the checkbox
+    display: none; /* Hide the checkbox */
   }
 
   label {
@@ -625,12 +659,12 @@ footer {
     padding: 10px;
     background-color: #fff;
     color: $dark;
-    grid-column: span 2; // Make the label span both columns
+    grid-column: span 2;
     display: flex;
     align-items: center;
 
     &::before {
-      content: "\2713"; // Unicode character for a checkmark
+      content: "\2713"; /* Unicode character for a checkmark */
       display: inline-block;
       width: 20px;
       height: 20px;
@@ -644,7 +678,7 @@ footer {
   }
 
   #checkbox:checked + label {
-    background-color: $green; // Change the label's background when the checkbox is checked
+    background-color: $green; /* Change the label's background when the checkbox is checked */
     color: $white;
   }
 }

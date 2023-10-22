@@ -29,11 +29,19 @@ export const customStyles = {
     bottom: "auto",
     marginRight: "-50%",
     transform: "translate(-50%, -50%)",
-    backgroundColor: "rgba(000, 000, 000, 0.4)",
-    height: "max-content",
-    maxWidth: "1000px",
+    backgroundColor: "rgba(0, 0, 0, 0.4)",
+    height: "auto",
+    maxWidth: "90%", // Adjust the width to a percentage of the screen width
+    padding: "20px", // Add some padding for content spacing
+
+    // Media query for small screens (e.g., mobile)
+    "@media (max-width: 768px)": {
+      maxWidth: "95%", // Adjust the width for smaller screens
+      padding: "10px", // Reduce padding for smaller screens
+    },
   },
 };
+
 export const expertise = [
   {
     id: 1,

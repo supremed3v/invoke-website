@@ -99,7 +99,7 @@ const ModalComponent = ({ modalIsOpen, closeModal }) => {
         >
           <Title title="Let's work together!" />
         </div>
-        <div>
+        <div className="modalContent">
           <form ref={formRef} onSubmit={handleSubmit} className="contactForm ">
             <input
               type="text"
